@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Ruaraidh Dobson | Research Fellow</title>
+    <title>Posts on ruaraidh.xyz</title>
     <link>http://ruaraidh.xyz/posts/</link>
-    <description>Recent content in Posts on Ruaraidh Dobson | Research Fellow</description>
+    <description>Recent content in Posts on ruaraidh.xyz</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
     <lastBuildDate>Thu, 21 Jan 2021 14:04:19 +0000</lastBuildDate><atom:link href="http://ruaraidh.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recent publications</title>
