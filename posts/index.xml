@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Ruaraidh Dobson | Research Fellow</title>
+    <link>http://ruaraidh.xyz/posts/</link>
+    <description>Recent content in Posts on Ruaraidh Dobson | Research Fellow</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 21 Jan 2021 14:04:19 +0000</lastBuildDate><atom:link href="http://ruaraidh.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recent publications</title>
+      <link>http://ruaraidh.xyz/posts/recent_publications/</link>
+      <pubDate>Thu, 21 Jan 2021 14:04:19 +0000</pubDate>
+      
+      <guid>http://ruaraidh.xyz/posts/recent_publications/</guid>
+      <description>I&amp;rsquo;ve published across a range of topics in environmental and public health, principally on second-hand smoke and indoor air quality.
+ Dobson R, Siddiqi K, Ferdous T, Ruque R, Lesosky M, Balmes J, Semple S. Diurnal variability of fine particulate pollution concentrations: data from 14 low and middle income countries. Int J Tuberc Lung Dis 2021 (accepted) Ferdous T, Siddiqi K, Semple S, Fairhurst C, Dobson R et al. Smoking behaviours and indoor air quality: a comparative analysis of smoking-permitted versus smoke-free homes in Dhaka, Bangladesh.</description>
+    </item>
+    
+  </channel>
+</rss>
