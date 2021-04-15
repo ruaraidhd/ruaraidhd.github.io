@@ -5,7 +5,17 @@
     <link>http://ruaraidh.xyz/posts/</link>
     <description>Recent content in Posts on ruaraidh.xyz</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 10 Mar 2021 11:09:09 +0000</lastBuildDate><atom:link href="http://ruaraidh.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Apr 2021 14:04:19 +0000</lastBuildDate><atom:link href="http://ruaraidh.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recent publications</title>
+      <link>http://ruaraidh.xyz/posts/recent_publications/</link>
+      <pubDate>Wed, 14 Apr 2021 14:04:19 +0000</pubDate>
+      
+      <guid>http://ruaraidh.xyz/posts/recent_publications/</guid>
+      <description>I&amp;rsquo;ve published across a range of topics in environmental and public health, principally on second-hand smoke and indoor air quality.
+ Dobson R, Demou E, Semple S. Occupational Exposure to Second-Hand Smoke: Development of a Job Exposure Matrix. Ann Work Expo Heal 2021. https://doi.org/10.1093/annweh/wxab019 Dobson R, Siddiqi K, Ferdous T, Ruque R, Lesosky M, Balmes J, Semple S. Diurnal variability of fine particulate pollution concentrations: data from 14 low and middle income countries.</description>
+    </item>
+    
     <item>
       <title>Air pollution changes over the course of the day – how does that affect health?</title>
       <link>http://ruaraidh.xyz/posts/diurnal-variation/</link>
