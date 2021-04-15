@@ -1,45 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml">
-    
-        
-        <url>
-            <loc>http://ruaraidh.xyz/posts/diurnal-variation/</loc>
-            <lastmod>2021-03-10T11:09:09+00:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://ruaraidh.xyz/posts/</loc>
-            <lastmod>2021-03-10T11:09:09+00:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://ruaraidh.xyz/</loc>
-            <lastmod>2021-03-10T11:09:09+00:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://ruaraidh.xyz/posts/recent_publications/</loc>
-            <lastmod>2021-01-21T14:04:19+00:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://ruaraidh.xyz/categories/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://ruaraidh.xyz/tags/</loc>
-        </url>
-        
-    
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://ruaraidh.xyz/posts/diurnal-variation/</loc>
+    <lastmod>2021-03-10T11:09:09+00:00</lastmod>
+  </url><url>
+    <loc>http://ruaraidh.xyz/posts/</loc>
+    <lastmod>2021-03-10T11:09:09+00:00</lastmod>
+  </url><url>
+    <loc>http://ruaraidh.xyz/</loc>
+    <lastmod>2021-03-10T11:09:09+00:00</lastmod>
+  </url><url>
+    <loc>http://ruaraidh.xyz/posts/recent_publications/</loc>
+    <lastmod>2021-01-21T14:04:19+00:00</lastmod>
+  </url><url>
+    <loc>http://ruaraidh.xyz/categories/</loc>
+  </url><url>
+    <loc>http://ruaraidh.xyz/tags/</loc>
+  </url>
 </urlset>
