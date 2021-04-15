@@ -6,14 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Posts | ruaraidh.xyz</title>
-
 <meta name="keywords" content="" />
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="canonical" href="http://ruaraidh.xyz/posts/" />
-<link href="/assets/css/stylesheet.min.91a536ebe69e3b23ea742d055a8275f3b475ad5ee54b3450c00711b4773ad2d9.css" integrity="sha256-kaU26&#43;aeOyPqdC0FWoJ187R1rV7lSzRQwAcRtHc60tk=" rel="preload stylesheet"
-    as="style">
-
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.84cc6e7cd97516a4d4e877c6bebe5a4529afdf61f4d009e2c8bbec3a876fff4e.css" integrity="sha256-hMxufNl1FqTU6HfGvr5aRSmv32H00AniyLvsOodv/04=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://ruaraidh.xyz/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://ruaraidh.xyz/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://ruaraidh.xyz/favicon-32x32.png">
@@ -21,21 +18,32 @@
 <link rel="mask-icon" href="http://ruaraidh.xyz/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.81.0" />
+<meta name="generator" content="Hugo 0.82.0" />
 <link rel="alternate" type="application/rss&#43;xml" href="http://ruaraidh.xyz/posts/index.xml">
-
-
 <meta property="og:title" content="Posts" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://ruaraidh.xyz/posts/" />
-<meta property="og:updated_time" content="2021-04-15T10:39:29+01:00" />
+
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
 <meta name="twitter:description" content=""/>
 
 
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://ruaraidh.xyz/posts/"
+    }
+  ]
+}
+</script>
 </head>
 
 <body class="list" id="top">
@@ -51,100 +59,114 @@
 </script>
 <noscript>
     <style type="text/css">
-        .theme-toggle,
+        #theme-toggle,
         .top-link {
             display: none;
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: #1d1e20;
+                --entry: #2e2e33;
+                --primary: rgba(255, 255, 255, 0.84);
+                --secondary: rgba(255, 255, 255, 0.56);
+                --tertiary: rgba(255, 255, 255, 0.16);
+                --content: rgba(255, 255, 255, 0.74);
+                --hljs-bg: #2e2e33;
+                --code-bg: #37383e;
+                --border: #333;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
 </noscript>
+
 <header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="http://ruaraidh.xyz/" accesskey="h" title="ruaraidh.xyz (Alt + H)">ruaraidh.xyz</a>
             <span class="logo-switches">
-                <span class="theme-toggle" title="(Alt + T)">
-                    <a id="theme-toggle" accesskey="t">
-                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                        </svg>
-                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="5"></circle>
-                            <line x1="12" y1="1" x2="12" y2="3"></line>
-                            <line x1="12" y1="21" x2="12" y2="23"></line>
-                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                            <line x1="1" y1="12" x2="3" y2="12"></line>
-                            <line x1="21" y1="12" x2="23" y2="12"></line>
-                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                        </svg>
-                    </a>
-                </span>
-                
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
             </span>
         </div>
-        <ul class="menu" id="menu" onscroll="menu_on_scroll()"></ul>
+        <ul id="menu" onscroll="menu_on_scroll()">
+        </ul>
     </nav>
 </header>
-
-    <main class="main"> 
+<main class="main"> 
 <header class="page-header">
   <h1>Posts</h1>
 </header>
 
-
-
 <article class="post-entry"> 
-
   <header class="entry-header">
-    <h2>
-      Clean the Air Better Indoors for Newborns (CABIN): Reducing Exposure to Household Air Pollution During Pregnancy in Sub-Saharan Africa
-    </h2>
+    <h2>Clean the Air Better Indoors for Newborns (CABIN): Reducing Exposure to Household Air Pollution During Pregnancy in Sub-Saharan Africa</h2>
   </header>
   <section class="entry-content">
-    <p>With colleagues from across sub-Saharan Africa and the UK, I’ve been awarded an Academy for Medical Sciences GCRF Networking Grant to explore new strategies to reduce pregnant people’s exposure to biomass fuel smoke....</p>
+    <p>With colleagues from across sub-Saharan Africa and the UK, I’ve been awarded an Academy for Medical Sciences GCRF Networking Grant to explore new strategies to reduce pregnant people’s exposure to biomass fuel smoke.</p>
   </section>
-  <footer class="entry-footer">April 15, 2021
-</footer>
+  <footer class="entry-footer">April 15, 2021</footer>
   <a class="entry-link" aria-label="post link to Clean the Air Better Indoors for Newborns (CABIN): Reducing Exposure to Household Air Pollution During Pregnancy in Sub-Saharan Africa" href="http://ruaraidh.xyz/posts/cabin-launch/"></a>
 </article>
-<article class="post-entry"> 
 
+<article class="post-entry"> 
   <header class="entry-header">
-    <h2>
-      Recent publications
-    </h2>
+    <h2>Recent publications</h2>
   </header>
   <section class="entry-content">
     <p>I’ve published across a range of topics in environmental and public health, principally on second-hand smoke and indoor air quality.
  Dobson R, Demou E, Semple S. Occupational Exposure to Second-Hand Smoke: Development of a Job Exposure Matrix. Ann Work Expo Heal 2021. https://doi.org/10.1093/annweh/wxab019 Dobson R, Siddiqi K, Ferdous T, Ruque R, Lesosky M, Balmes J, Semple S. Diurnal variability of fine particulate pollution concentrations: data from 14 low and middle income countries....</p>
   </section>
-  <footer class="entry-footer">April 14, 2021
-</footer>
-  <a class="entry-link" aria-label="post link to Recent publications" href="http://ruaraidh.xyz/posts/recent_publications/"></a>
+  <footer class="entry-footer">April 14, 2021</footer>
+  <a class="entry-link" aria-label="post link to Recent publications" href="http://ruaraidh.xyz/posts/recent-publications/"></a>
 </article>
-<article class="post-entry"> 
 
+<article class="post-entry"> 
   <header class="entry-header">
-    <h2>
-      Air pollution changes over the course of the day – how does that affect health?
-    </h2>
+    <h2>Air pollution changes over the course of the day – how does that affect health?</h2>
   </header>
   <section class="entry-content">
     <p>This blog post originally appeared on the ISMH blog.
 It’s well understood that air pollution changes from place to place and day to day. News stories about bad air pollution in India or China are commonplace. Likewise, if you stand next to an old bus as it’s running, you have a very different experience to the top of Ben Nevis. But what about changes over the course of the day? It surely stands to reason that, if human behaviour affects outdoor air pollution (as it certainly does) then during times when humans are most active, such as the middle of the day, air pollution will be worse?...</p>
   </section>
-  <footer class="entry-footer">March 10, 2021
-</footer>
+  <footer class="entry-footer">March 10, 2021</footer>
   <a class="entry-link" aria-label="post link to Air pollution changes over the course of the day – how does that affect health?" href="http://ruaraidh.xyz/posts/diurnal-variation/"></a>
 </article>
-
-    </main><footer class="footer">
+    </main>
+    <footer class="footer">
     <span>&copy; 2021 <a href="http://ruaraidh.xyz/">ruaraidh.xyz</a></span>
     <span>&middot;</span>
     <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
@@ -159,14 +181,17 @@ It’s well understood that air pollution changes from place to place and day to
     </button>
 </a>
 
-
-
 <script>
     window.onload = function () {
         if (localStorage.getItem("menu-scroll-position")) {
             document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
         }
     }
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function (e) {
             e.preventDefault();
@@ -181,10 +206,13 @@ It’s well understood that air pollution changes from place to place and day to
             if (id === "top") {
                 history.replaceState(null, null, " ");
             } else {
-                history.replaceState(null, null, `#${id}`);
+                history.pushState(null, null, `#${id}`);
             }
         });
     });
+
+</script>
+<script>
     var mybutton = document.getElementById("top-link");
     window.onscroll = function () {
         if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
@@ -195,10 +223,6 @@ It’s well understood that air pollution changes from place to place and day to
             mybutton.style.opacity = "0";
         }
     };
-
-    function menu_on_scroll() {
-        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
-    }
 
 </script>
 <script>
@@ -213,7 +237,6 @@ It’s well understood that air pollution changes from place to place and day to
     })
 
 </script>
-
 </body>
 
 </html>
